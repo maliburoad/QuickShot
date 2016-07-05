@@ -1,2 +1,5 @@
 # hello-world
-Hello World repo
+
+Hi humans!
+
+This is just a branch of trunk.
