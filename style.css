@@ -1,7 +1,5 @@
 body {
-  /* Old browsers */
   background: #efeff2;
-
   margin: 20px;
   padding: 20px;
   font-family: Helvetica;	
@@ -93,7 +91,6 @@ font-size: 30px;
   position: relative;
   top: 80%;
   width: 60%;
-
   background-color: white;
   color: black;
   opacity: 0.75;
