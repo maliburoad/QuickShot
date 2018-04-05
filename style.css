@@ -11,10 +11,28 @@ body {
   
 h1 {
     text-transform: uppercase;
-border-bottom: 1px solid rgba(0, 0, 0, 0.5);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
   padding-bottom: 20px;
   }
+
+#menu{
+  background-color: cadetblue;
+  padding: 10px;
+}
+
+/*
+#menu{
+  background-color: white;
+  border: solid 3px black;
+  border-radius: 10px;
+}
+*/
   
+#menu a{
+  padding-left:5em;
+font-size: 20px;
+}
+
 
 .image {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
