@@ -7,7 +7,48 @@ body {
   font-family: Helvetica;	
 }
 
+/*-----MENU-----*/
 
+
+/*
+.menu{
+  background-color: darkseagreen;
+  padding: 10px;
+}
+
+ 
+.menu a{
+  padding-left:5em;
+font-size: 20px;
+}
+*/
+
+.menu {
+  background-color: lightslategray;
+  border: 1px solid LightGrey;
+  padding: 40px 0px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.menu a {
+  background: red;
+  border: 1px solid red;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.menu a:hover {
+  background: white;
+  border: 1px solid red;
+  color: red;
+}
+
+/*-----CONTENT-----*/
   
 h1 {
     text-transform: uppercase;
@@ -15,16 +56,6 @@ h1 {
   padding-bottom: 20px;
   }
 
-#menu{
-  background-color: khaki;
-  padding: 10px;
-}
-
- 
-#menu a{
-  padding-left:5em;
-font-size: 20px;
-}
 
 
 .image {
@@ -51,3 +82,5 @@ font-size: 20px;
   color: black;
   opacity: 0.75;
 }
+
+
