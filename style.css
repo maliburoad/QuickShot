@@ -10,7 +10,7 @@ body {
 /*-----MENU-----*/
 
 
-/*
+/* my old menu
 .menu{
   background-color: darkseagreen;
   padding: 10px;
@@ -24,7 +24,11 @@ font-size: 20px;
 */
 
 .menu {
-  background-color: lightslategray;
+/*  background-color: lightslategray;*/
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
+  background-size: cover;
+  background-position: center;
+
   border: 1px solid LightGrey;
   padding: 40px 0px;
   position: relative;
@@ -39,7 +43,7 @@ font-size: 20px;
   color: white;
   display: inline-block;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 30px;
 }
 
 .menu a:hover {
@@ -52,12 +56,16 @@ font-size: 20px;
   
 h1 {
     text-transform: uppercase;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.5);
-  padding-bottom: 20px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
   }
 
+.mail {
+font-size: 30px;
+}
 
 
+/*-----BOTTOM-----*/
 .image {
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");
   background-size: cover;
