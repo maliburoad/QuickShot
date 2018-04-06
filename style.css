@@ -66,6 +66,18 @@ h1 {
     padding-bottom: 20px;
   }
 
+.intro p{
+padding-left: 10px;
+border-left: 10px solid black;
+margin-left: 10px;
+}
+
+.models h2,p{
+padding-left: 10px;
+border-left: 10px solid red;
+margin-left: 10px;
+}
+
 .mail {
 font-size: 30px;
 }
