@@ -21,7 +21,7 @@ font-size: 20px;
 }
 */
 
-.logo{
+.logo-top{
   background-image: url("images/logo1.jpg");
   background-size: cover;
   background-position: top;
@@ -68,13 +68,13 @@ h1 {
 
 .intro p{
 padding-left: 10px;
-border-left: 10px solid black;
+border-left: 20px solid black;
 margin-left: 10px;
 }
 
-.models h2,p{
+.models p{
 padding-left: 10px;
-border-left: 10px solid red;
+border-left: 20px solid red;
 margin-left: 10px;
 }
 
@@ -84,7 +84,7 @@ font-size: 30px;
 
 
 /*-----BOTTOM-----*/
-.image {
+.logo-bottom {
   background-image: url("images/logo1.jpg");
   background-size: cover;
   background-position: center;
