@@ -22,7 +22,7 @@ font-size: 20px;
 */
 
 .logo-top{
-  background-image: url("images/logo1.jpg");
+  background-image: url("images/logo.jpg");
   background-size: cover;
   background-position: top;
   height: 310px;
@@ -58,6 +58,23 @@ font-size: 20px;
   color: red;
 }
 
+.menu #bonus {
+  background: blue;
+  border: 1px solid blue;
+  border-radius: 3px;
+  color: white;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+.menu a#bonus:hover {
+  background: white;
+  border: 1px solid blue;
+  color: blue;
+}
+
+
 /*-----CONTENT-----*/
   
 h1 {
@@ -84,28 +101,13 @@ font-size: 30px;
 
 
 /*-----BOTTOM-----*/
-.logo-bottom {
-  background-image: url("images/logo1.jpg");
+.logo-bottom  {
+  /*background-image: url("images/logo1.jpg");
   background-size: cover;
-  background-position: center;
-  height: 200px;
-}
-
-.caption {
-  display: block;
-  font-family: 'Playfair Display', serif;
-  font-size: 14px;
-  font-style: italic;
-  line-height: 14px;
-  color: AliceBlue;
-  margin-left: 20px;
-  padding: 10px;
-  position: relative;
-  top: 80%;
-  width: 60%;
-  background-color: white;
-  color: black;
-  opacity: 0.75;
+  background-position: center;*/
+  max-width: 100px;
+  max-height: 100px;
+  overflow: scroll;
 }
 
 
