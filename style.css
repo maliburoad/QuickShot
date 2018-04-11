@@ -30,16 +30,13 @@ font-size: 20px;
 
 .menu {
   background-color: black;
-/*  background-color: lightslategray;*/
-/*  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/web-101/unit-4/htmlcss1-img_soccer.jpeg");*/
   background-size: cover;
   background-position: center;
-
   border: 1px solid LightGrey;
   padding: 10px 0px;
-  position: relative;
   text-align: center;
   width: 100%;
+
 }
 
 .menu a {
@@ -78,36 +75,50 @@ font-size: 20px;
 /*-----CONTENT-----*/
   
 h1 {
-    text-transform: uppercase;
-    border-bottom: 2px solid rgba(0, 0, 0, 0.5);
-    padding-bottom: 20px;
+  text-transform: uppercase;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.5);
+  padding-bottom: 20px;
+  position: relative;
   }
 
 .intro p{
-padding-left: 10px;
-border-left: 20px solid black;
-margin-left: 10px;
+  padding-left: 10px;
+  border-left: 20px solid black;
+  margin-left: 10px;
+  position: relative;
 }
 
 .models p{
-padding-left: 10px;
-border-left: 20px solid red;
-margin-left: 10px;
+  padding-left: 10px;
+  border-left: 20px solid red;
+  margin-left: 10px;
+  position: relative;
+  display: inline;
 }
 
 .mail {
-font-size: 30px;
+  font-size: 30px;
+  position: relative;
 }
+
 
 
 /*-----BOTTOM-----*/
-.logo-bottom  {
-  /*background-image: url("images/logo1.jpg");
+
+.bottom-logo  {
+  /*background-image: url("images/logo1.jpg");*/
   background-size: cover;
-  background-position: center;*/
-  max-width: 100px;
-  max-height: 100px;
-  overflow: scroll;
+  background-position: center;
+  min-width: 200px
+  max-width: 1000px;
+
 }
 
+.bottom-line {
+  border-bottom: 1px solid LightGrey;
+  border-top: 1px solid LightGrey;
+  color: DarkGrey;
+  font-size: 14px;
+  font-weight: 200;
+}
 
