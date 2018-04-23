@@ -1,5 +1,6 @@
 body {
-  background: #efeff2;
+/*  background: hsl(240, 10%, 94%);*/
+  background-color: Gainsboro;
   margin: 20px;
   padding: 20px;
   font-family: Helvetica;	
@@ -79,7 +80,7 @@ h1 {
   border-bottom: 2px solid rgba(0, 0, 0, 0.5);
   padding-bottom: 20px;
   position: relative;
-  }
+}
 
 .intro p{
   padding-left: 10px;
@@ -101,10 +102,24 @@ h1 {
   position: relative;
 }
 
-.rectangle {
-  display: inline-block;
-  width: 200px;
-  height: 300px;
+.grid {
+  display: grid;
+  border: 5px red solid;
+  height: 1000px;
+  width:1600px;
+  grid-template: repeat(10, 1fr) / repeat(10, 1fr);
+  grid-gap: 10px 10px;
+}
+
+.a {
+grid-area: 1/1/span 2/span 2;
+}
+
+.box {
+/* background-color: beige;*/
+  color: black;
+  border-radius: 5px;
+  border: 2px dodgerblue solid;
 }
 
 /*-----BOTTOM-----*/
@@ -115,7 +130,6 @@ h1 {
   background-position: center;
   min-width: 200px
   max-width: 1000px;
-
 }
 
 .bottom-line {
